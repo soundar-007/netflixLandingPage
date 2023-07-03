@@ -9,11 +9,12 @@ nav {
 }
 
 .headers > img {
-  height: 100vh;
+  height: 100%;
   position: absolute;
   width: 100%;
   background-size: cover;
 }
+
 .header {
   position: absolute;
   top: 0;
@@ -280,12 +281,21 @@ a {
     margin: 0;
     padding: 0;
   }
-
+  nav {
+    position: relative;
+  }
   .headers > img {
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     background-size: cover;
     overflow: hidden;
+  }
+  .headers {
+    height: 100%;
   }
   .header {
     position: absolute;
