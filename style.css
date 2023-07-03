@@ -274,24 +274,20 @@ a {
   z-index: 1;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 760px) {
   * {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
   }
-  nav {
-    height: 80vh;
-  }
 
   .headers > img {
-    height: 80%;
     position: absolute;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    overflow: hidden;
   }
   .header {
-    height: 80%;
     position: absolute;
     top: 0;
     left: 0;
